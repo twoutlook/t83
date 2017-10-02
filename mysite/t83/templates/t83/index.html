@@ -1,0 +1,86 @@
+
+<br>01
+{% for item in list01 %}{{ item.t83_short }}{% endfor %}
+&nbsp; 06
+{% for item in list06 %}{{ item.t83_short }}{% endfor %}
+<br>11
+{% for item in list11 %}{{ item.t83_short }}{% endfor %}
+&nbsp; 16
+{% for item in list16 %}{{ item.t83_short }}{% endfor %}
+<br>21
+{% for item in list21 %}{{ item.t83_short }}{% endfor %}
+&nbsp; 26
+{% for item in list26 %}{{ item.t83_short }}{% endfor %}
+<br>31
+{% for item in list31 %}{{ item.t83_short }}{% endfor %}
+&nbsp; 36
+{% for item in list36 %}{{ item.t83_short }}{% endfor %}
+<br>41
+{% for item in list41 %}{{ item.t83_short }}{% endfor %}
+&nbsp; 46
+{% for item in list46 %}{{ item.t83_short }}{% endfor %}
+<br>51
+{% for item in list51 %}{{ item.t83_short }}{% endfor %}
+&nbsp; 56
+{% for item in list56 %}{{ item.t83_short }}{% endfor %}
+<br>61
+{% for item in list61 %}{{ item.t83_short }}{% endfor %}
+　&nbsp;&nbsp; 65
+{% for item in list65 %}{{ item.t83_short }}{% endfor %}
+<br>70
+{% for item in list70 %}{{ item.t83_short }}{% endfor %}
+&nbsp; 75
+{% for item in list75 %}{{ item.t83_short }}{% endfor %}
+<br>80
+{% for item in list80 %}{{ item.t83_short }}{% endfor %}
+<br><br>
+
+<br>01
+{% for item in list01 %}{{ item.t83_short }}{% endfor %}
+<br>06
+{% for item in list06 %}{{ item.t83_short }}{% endfor %}
+<br>11
+{% for item in list11 %}{{ item.t83_short }}{% endfor %}
+<br>16
+{% for item in list16 %}{{ item.t83_short }}{% endfor %}
+<br>21
+{% for item in list21 %}{{ item.t83_short }}{% endfor %}
+<br>26
+{% for item in list26 %}{{ item.t83_short }}{% endfor %}
+<br>31
+{% for item in list31 %}{{ item.t83_short }}{% endfor %}
+<br>36
+{% for item in list36 %}{{ item.t83_short }}{% endfor %}
+<br>41
+{% for item in list41 %}{{ item.t83_short }}{% endfor %}
+<br>46
+{% for item in list46 %}{{ item.t83_short }}{% endfor %}
+<br>51
+{% for item in list51 %}{{ item.t83_short }}{% endfor %}
+<br>56
+{% for item in list56 %}{{ item.t83_short }}{% endfor %}
+<br>61
+{% for item in list61 %}{{ item.t83_short }}{% endfor %}
+<br>65
+{% for item in list65 %}{{ item.t83_short }}{% endfor %}
+<br>70
+{% for item in list70 %}{{ item.t83_short }}{% endfor %}
+<br>75
+{% for item in list75 %}{{ item.t83_short }}{% endfor %}
+<br>80
+{% for item in list80 %}{{ item.t83_short }}{% endfor %}
+<br><br>
+
+
+
+
+
+{% if list %}
+    <ul>
+    {% for item in list %}
+        <li>{{ item.t83_num }}&nbsp;{{ item.t83_short }}&nbsp;{{ item.t83_name }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
